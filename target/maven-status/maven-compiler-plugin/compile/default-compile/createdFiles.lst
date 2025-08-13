@@ -1,0 +1,9 @@
+com\example\newplayerwelcome\managers\ConfigManager.class
+com\example\newplayerwelcome\managers\WelcomeManager.class
+com\example\newplayerwelcome\commands\TestNBTCommand.class
+com\example\newplayerwelcome\managers\NBTManager.class
+com\example\newplayerwelcome\managers\StarterKitManager.class
+com\example\newplayerwelcome\NewPlayerWelcomePlugin.class
+com\example\newplayerwelcome\commands\WelcomeCommand.class
+com\example\newplayerwelcome\listeners\PlayerJoinListener.class
+com\example\newplayerwelcome\managers\NBTManager$1.class

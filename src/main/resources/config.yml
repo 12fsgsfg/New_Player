@@ -1,0 +1,74 @@
+# 新玩家歡迎插件配置文件
+
+# 歡迎消息設置
+welcome:
+  # 是否啟用歡迎消息
+  enabled: true
+  
+  # 歡迎消息列表 (支持顏色代碼)
+  messages:
+    - "&a歡迎 &e%player% &a來到服務器！"
+    - "&6祝您在服務器玩得開心！"
+  
+  # 是否廣播到全服
+  broadcast: true
+  
+  # 是否發送私人消息
+  private_message: true
+
+# 新手裝備設置
+starter_kit:
+  # 是否啟用新手裝備
+  enabled: true
+  
+  # 裝備列表 (支持 NBT 標籤、附魔和命名)
+  items:
+    # 武器
+    - "WOODEN_SWORD:1:0:name=&6&l夜市小刀:lore=&7便宜又好用|&7夜市老闆強力推薦:enchantments=SHARPNESS:1"
+    - "BOW:1:0:name=&a&l蚊子弓:lore=&7只夠射紙老虎:enchantments=POWER:1"
+    - "ARROW:16:0:name=&f蚊子箭"
+    
+    # 防具
+    - "LEATHER_HELMET:1:0:name=&e安全帽"
+    - "LEATHER_CHESTPLATE:1:0:name=&6機車背心"
+    - "LEATHER_LEGGINGS:1:0:name=&6短褲仔褲"
+    - "LEATHER_BOOTS:1:0:name=&f拖鞋"
+    
+    # 工具（無附魔）
+    - "WOODEN_PICKAXE:1:0:name=&a工地用鋤"
+    - "WOODEN_AXE:1:0:name=&6砍樹神器"
+    - "WOODEN_SHOVEL:1:0:name=&2挖土神器"
+    
+    # 食物
+    - "COOKED_PORKCHOP:4:0:name=&6滷肉飯"
+    - "BREAD:2:0:name=&e吐司"
+    - "APPLE:1:0:name=&a蘋果"
+    
+    # 其他物資
+    - "TORCH:8:0:name=&e手電筒"
+    - "COBBLESTONE:16:0:name=&7基隆石"
+    - "OAK_LOG:4:0:name=&6檜木"
+    - "IRON_INGOT:2:0:name=&7鋼條"
+    - "PAPER:1:0:name=&f發票"
+
+# 首次加入設置
+first_join:
+  # 是否只給首次加入的玩家裝備
+  only_first_join: true
+  
+  # 是否保存玩家加入記錄
+  save_join_record: true
+
+# NBT 標籤設置
+nbt:
+  # 是否啟用 NBT 標籤
+  enabled: true
+  
+  # 是否啟用附魔
+  enchantments: true
+  
+  # 是否啟用命名
+  naming: true
+  
+  # 是否啟用描述
+  lore: true

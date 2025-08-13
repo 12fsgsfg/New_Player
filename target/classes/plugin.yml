@@ -1,0 +1,29 @@
+name: NewPlayerWelcome
+version: 1.0.0
+main: com.example.newplayerwelcome.NewPlayerWelcomePlugin
+api-version: 1.19
+description: 自動歡迎新玩家並給予新手裝備的插件
+author: YourName
+
+commands:
+  welcome:
+    description: 重新發送歡迎消息
+    usage: /<command>
+    permission: newplayerwelcome.welcome
+    permission-message: 您沒有權限使用此命令
+  testnbt:
+    description: 測試 NBT 功能
+    usage: /<command> [物品字符串]
+    permission: newplayerwelcome.testnbt
+    permission-message: 您沒有權限使用此命令
+
+permissions:
+  newplayerwelcome.welcome:
+    description: 允許使用 /welcome 命令
+    default: op
+  newplayerwelcome.bypass:
+    description: 跳過新手裝備給予
+    default: op
+  newplayerwelcome.testnbt:
+    description: 允許使用 /testnbt 命令
+    default: op
